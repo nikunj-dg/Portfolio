@@ -1,0 +1,51 @@
+Make the following changes
+- How to call a block of code before every function in crud 
+- Develop user dashboard to track visits, views, clicks 
+- Integrate CI/CD functionality 
+- Learn testing and monitoring tools 
+- Add Changelog.md file to track changes 
+
+Account Logins 
+admin2 - admin2 
+
+
+Handle expired tokens
+fetch("http://127.0.0.1:8000/parables", {
+  headers: { "Authorization": `Bearer ${token}` }
+})
+  .then(async (res) => {
+    if (res.status === 401) {
+      sessionStorage.removeItem("user_token");
+      window.location.href = "/login";
+      return;
+    }
+    return res.json();
+  })
+  .then((data) => setParables(data))
+  .catch((err) => console.error(err));
+
+
+
+Git commands:
+git status
+View the modified, added and deleted files 
+
+git add . or git add filenames
+Stage all the modified files, which files to be included in next commit 
+
+git commit -m "Message"
+Committing with a message about the commit
+
+git push 
+Send the commits to repo 
+
+Delete the old tag locally and on the remote:
+git tag -d v1.0.0
+git push origin :refs/tags/v1.0.0
+
+
+Create a new tag pointing to the commit where release.yml is updated:
+git tag v1.0.1
+git push origin v1.0.1
+
+
