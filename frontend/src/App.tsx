@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="flex flex-col">
         <ErrorModal />
-
+        
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
