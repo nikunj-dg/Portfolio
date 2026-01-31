@@ -1,12 +1,10 @@
 # Portfolio
-An app to view and share Parables
+Check out my portfolio where you can find details about my Experience, Skills and more. 
 
-## Features 
+## Snippet
 
-## Backend
-To start backend server, run the command from root folder
-    "uvicorn backend.main:app --reload --no-use-colors"
 
-## Frontend
-To start frontend server, run the command from frontend folder 
-    "npm run dev"
+## Tech Stack
+Frontend - Python, React, TailwindCSS
+
+
