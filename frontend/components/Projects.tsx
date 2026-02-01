@@ -5,7 +5,7 @@ const Projects = () => {
 
   return (
     <>
-    <motion.section id="projects" className="flex flex-col py-12 px-30"
+    <motion.section id="#projects" className="flex flex-col py-12 px-30"
       initial={{ opacity: 0, y: 100 }} // Initial state (hidden below)
       whileInView={{ opacity: 1, y: 0 }} // Animate to this state when in view
       transition={{ duration: 0.8, type: "spring", stiffness: 50 }} // Smooth transition
