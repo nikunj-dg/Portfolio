@@ -3,10 +3,6 @@ import { useError } from "../context/ErrorContext";
 import { motion } from "motion/react";
 
 const Contact = () => {
-<<<<<<< HEAD
-=======
-    const navigate = useNavigate();
->>>>>>> 023593ae5787abb263aee2ada9b939f8661da2ac
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
