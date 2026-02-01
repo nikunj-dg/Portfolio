@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useError } from "../context/ErrorContext";
+import { motion } from "motion/react";
 
 const Contact = () => {
     const [name, setName] = useState("");
@@ -9,7 +10,12 @@ const Contact = () => {
 
   return (
     <>
-    <div id="contact" className="flex flex-col text-xl py-12 px-30">
+    <motion.section id="contact" className="flex flex-col text-xl py-12 px-30"
+      initial={{ opacity: 0, y: 100 }} // Initial state (hidden below)
+      whileInView={{ opacity: 1, y: 0 }} // Animate to this state when in view
+      transition={{ duration: 0.8, type: "spring", stiffness: 50 }} // Smooth transition
+      viewport={{ once: true, amount: 0.5 }} // Only animate once, when 50% visible
+    >
         <div className="text-4xl my-7 font-mono">Get in Touch</div>
 
         <form className="m-6">
@@ -55,7 +61,7 @@ const Contact = () => {
                 </button>
             </div>
         </form>
-    </div>
+    </motion.section>
     </>
   );
 };

@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { useError } from "../context/ErrorContext";
 import { motion } from "motion/react";
 
