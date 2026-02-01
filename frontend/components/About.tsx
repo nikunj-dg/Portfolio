@@ -1,4 +1,3 @@
-import { useError } from "../context/ErrorContext";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { TiDocumentText } from "react-icons/ti";
 import { motion } from "motion/react";

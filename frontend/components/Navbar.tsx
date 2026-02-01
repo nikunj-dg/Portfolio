@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useError } from "../context/ErrorContext";
 import { BiX, BiMenu } from "react-icons/bi";
 import { navbar } from "../src/data/content";
 
