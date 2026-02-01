@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useError } from "../context/ErrorContext";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import { motion } from "motion/react";
 import { experience } from "../src/data/content";

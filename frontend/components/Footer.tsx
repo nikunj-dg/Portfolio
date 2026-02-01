@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-import { useError } from "../context/ErrorContext";
 
 const Footer = () => {
 

@@ -1,4 +1,3 @@
-import { useError } from "../context/ErrorContext";
 import { motion } from "motion/react";
 
 
