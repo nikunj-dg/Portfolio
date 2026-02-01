@@ -20,7 +20,7 @@ export interface Experience {
 export interface Project {
   title: string;
   description: string;
-  link?: string;
+  link: string;
   tech: string[];
 }
 
@@ -81,16 +81,45 @@ export const experience: Experience[] = [
 
 export const projects: Project[] = [
   {
-    title: "Portfolio Website",
-    description:
-      "Personal portfolio built with React, TypeScript, and Tailwind CSS.",
-    link: "https://github.com/nikunj-dg/Portfolio",
-    tech: ["React", "TypeScript", "Tailwind CSS"],
+    title: "Parables App",
+    description: "An app to view and share Parables",
+    link: "https://github.com/nikunj-dg/Parables-App",
+    tech: ["React", "TypeScript", "Tailwind CSS", "FastAPI"],
   },
   {
-    title: "RAG System",
-    description:
-      "Production-grade Retrieval-Augmented Generation system using Databricks and Qdrant.",
-    tech: ["Python", "LLMs", "Databricks", "Qdrant"],
+    title: "RAG System - Basic",
+    description: "Retrieval-Augmented Generation system using Databricks.",
+      link: "https://github.com/nikunj-dg/rag_1",
+    tech: ["Python", "LLMs", "Databricks"],
+  },
+  {
+    title: "Facial Attendance System",
+    description: "Facial Attendance System.",
+      link: "https://github.com/nikunj-dg/Facial-Attendance-System",
+    tech: ["Python", "Tkinter"],
+  },
+  {
+    title: "BlackJack Game",
+    description: "The gameplay is basic and straightforward. Follow the instructions onscreen.",
+      link: "https://github.com/nikunj-dg/BlackJack-Game",
+    tech: ["Python"],
+  },
+  {
+    title: "XnO Game",
+    description: "The gameplay is basic and straightforward. Follow the instructions onscreen.",
+      link: "https://github.com/nikunj-dg/XnO-Game",
+    tech: ["Python"],
+  },
+  {
+    title: "Weather Project",
+    description: "You've been tasked by your team to create an automated Extract, Transform, Load (ETL) process to extract daily weather forecast and observed weather data and load it into a live report to be used for further analysis by the analytics team. ",
+      link: "https://github.com/nikunj-dg/Weather-Project",
+    tech: ["CLI"],
+  },
+  {
+    title: "Forage_LYFT_Backend",
+    description: "Lyft Back-End Engineering Job Simulation - July 2023.",
+      link: "https://github.com/nikunj-dg/Forage-LYFT-BackEnd",
+    tech: ["Python"],
   },
 ];

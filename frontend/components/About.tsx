@@ -21,9 +21,9 @@ const About = () => {
           {about.description}
         </div>
         <ul className="flex justify-center text-3xl mt-3">
-          <a href="#" target="_blank" className="m-3 opacity-70 transition-all duration-300 hover:opacity-100 hover:text-blue-500"><li><FaLinkedin /></li></a>
-          <a href="#" target="_blank" className="m-3 opacity-70 transition-all duration-300 hover:opacity-100"><li><FaGithub /></li></a>
-          <a href="#" download="" className="m-3 opacity-70 transition-all duration-300 hover:opacity-100"><li><TiDocumentText /></li></a>
+          <a href="https://www.linkedin.com/in/nikunj-gohil-850503211/" target="_blank" className="m-3 opacity-70 transition-all duration-300 hover:opacity-100 hover:text-blue-500"><li><FaLinkedin /></li></a>
+          <a href="https://github.com/nikunj-dg/" target="_blank" className="m-3 opacity-70 transition-all duration-300 hover:opacity-100"><li><FaGithub /></li></a>
+          <a href="/Nikunj_Gohil_Resume.pdf" target="_blank" rel="noopener noreferrer" className="m-3 opacity-70 transition-all duration-300 hover:opacity-100"><li><TiDocumentText /></li></a>
         </ul>
       </motion.div>
     </section>

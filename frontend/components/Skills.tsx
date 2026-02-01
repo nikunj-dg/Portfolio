@@ -17,19 +17,14 @@ const Tools = () => {
           <div className="p-5 m-1 rounded-md shadow-md">Python</div>
           <div className="p-5 m-1 rounded-md shadow-md">C++</div>
           <div className="p-5 m-1 rounded-md shadow-md">SQL/ NoSQL</div>
-          <div className="p-5 m-1 rounded-md shadow-md">PostgreSQL</div>
-          <div className="p-5 m-1 rounded-md shadow-md">MongoDB</div>
           <div className="p-5 m-1 rounded-md shadow-md">FastAPI</div>
-          <div className="p-5 m-1 rounded-md shadow-md">HTMLm CSS, JS</div>
           <div className="p-5 m-1 rounded-md shadow-md">React</div>
-          <div className="p-5 m-1 rounded-md shadow-md">Typescript</div>
           <div className="p-5 m-1 rounded-md shadow-md">TailwindsCSS</div>
           <div className="p-5 m-1 rounded-md shadow-md">GitHub</div>
           <div className="p-5 m-1 rounded-md shadow-md">MS Office</div>
           <div className="p-5 m-1 rounded-md shadow-md">Postman</div>
           <div className="p-5 m-1 rounded-md shadow-md">MATLAB</div>
           <div className="p-5 m-1 rounded-md shadow-md">Databricks</div>
-          <div className="p-5 m-1 rounded-md shadow-md">Pandas & Numpy</div>
       </div>
     </motion.section>
     </>

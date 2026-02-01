@@ -17,7 +17,7 @@ const Projects = () => {
       <div className="flex flex-wrap text-xl m-6 text-xl">
         {projects.map((project, idx) => (
           <div key={idx} className="border-black-300 border-2 rounded-lg m-10 bg-white">
-            <div className="p-3 border-b-2 border-black-500">{project.title}</div>
+            <div className="p-3 border-b-2 border-black-500"><a href={project.link} target="_blank">{project.title}</a></div>
             <div className="p-3">{project.description}</div>
             <div className="p-3">{project.tech}</div>
           </div>
