@@ -7,7 +7,7 @@ const About = () => {
 
   return (
     <>
-    <section id="about" className="flex flex-col justify-center items-center h-screen">
+    <section id="#about" className="flex flex-col justify-center items-center h-screen">
       <motion.div initial={{y: -50, opacity:0}} animate={{y: 0, opacity: 1}} transition={{duration: 1, delay:0.3}}>
         <div className="text-5xl font-medium font-mono text-7xl">
             {about.name}
