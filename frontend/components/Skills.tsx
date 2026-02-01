@@ -6,11 +6,15 @@ const Tools = () => {
 
   return (
     <>
+<<<<<<< HEAD:frontend/components/Skills.tsx
     <motion.section id="tools" className="flex flex-col text-xl py-12 px-30" initial={{ opacity: 0, y: 100 }} // Initial state (hidden below)
       whileInView={{ opacity: 1, y: 0 }} // Animate to this state when in view
       transition={{ duration: 0.8, type: "spring", stiffness: 50 }} // Smooth transition
       viewport={{ once: true, amount: 0.5 }} // Only animate once, when 50% visible
     >
+=======
+    <section id="tools" className="flex flex-col text-xl py-12 px-30">
+>>>>>>> 023593ae5787abb263aee2ada9b939f8661da2ac:frontend/components/Tools.tsx
       <div className="text-4xl my-7 font-mono">Skills</div>
 
       <div className="grid grid-cols-6 gap-3 justify-items-center my-6">
@@ -26,7 +30,11 @@ const Tools = () => {
           <div className="p-5 m-1 rounded-md shadow-md">MATLAB</div>
           <div className="p-5 m-1 rounded-md shadow-md">Databricks</div>
       </div>
+<<<<<<< HEAD:frontend/components/Skills.tsx
     </motion.section>
+=======
+    </section>
+>>>>>>> 023593ae5787abb263aee2ada9b939f8661da2ac:frontend/components/Tools.tsx
     </>
   );
 };

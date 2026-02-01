@@ -8,8 +8,12 @@ const About = () => {
 
   return (
     <>
+<<<<<<< HEAD
     <section id="about" className="flex flex-col justify-center items-center h-screen">
       <motion.div initial={{y: -50, opacity:0}} animate={{y: 0, opacity: 1}} transition={{duration: 1, delay:0.3}}>
+=======
+    <div id="about" className="flex flex-col justify-center items-center h-screen">
+>>>>>>> 023593ae5787abb263aee2ada9b939f8661da2ac
         <div className="text-5xl font-medium font-mono text-7xl">
             {about.name}
         </div>
