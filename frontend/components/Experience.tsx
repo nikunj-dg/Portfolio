@@ -8,7 +8,7 @@ const Experience = () => {
 
   return (
     <>
-    <motion.section id="#experience" className="flex flex-col justify-center text-xl md:py-12 md:px-30 py-6 px-15"
+    <motion.section id="experience" className="flex flex-col justify-center text-xl md:py-12 md:px-30 py-6 px-15"
       initial={{ opacity: 0, y: 100 }} // Initial state (hidden below)
       whileInView={{ opacity: 1, y: 0 }} // Animate to this state when in view
       transition={{ duration: 0.8, type: "spring", stiffness: 50 }} // Smooth transition
