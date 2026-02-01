@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <>
-    <div className="flex flex-col relative bg-gradient-to-b from-stone-50 to-slate-200">
+    <div className="flex flex-col relative">
       <Navbar />
       <About />
       <Experience />

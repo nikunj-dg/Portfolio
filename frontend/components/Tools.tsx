@@ -7,7 +7,7 @@ const Tools = () => {
 
   return (
     <>
-    <div id="tools" className="flex flex-col text-xl py-12 px-30">
+    <section id="tools" className="flex flex-col text-xl py-12 px-30">
       <div className="text-4xl my-7 font-mono">Skills</div>
 
       <div className="grid grid-cols-6 gap-3 justify-items-center my-6">
@@ -28,7 +28,7 @@ const Tools = () => {
           <div className="p-5 m-1 rounded-md shadow-md">Databricks</div>
           <div className="p-5 m-1 rounded-md shadow-md">Pandas & Numpy</div>
       </div>
-    </div>
+    </section>
     </>
   );
 };

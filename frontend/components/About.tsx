@@ -8,7 +8,7 @@ const About = () => {
 
   return (
     <>
-    <div id="about" className="flex flex-col justify-center items-center h-dvh">
+    <div id="about" className="flex flex-col justify-center items-center h-screen">
         <div className="text-5xl font-medium font-mono text-7xl">
             Nikunj Gohil
         </div>
